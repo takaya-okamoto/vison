@@ -49,7 +49,7 @@ export default function Home() {
             }`}
         >
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-white">
-            人類が可能性を信じ、
+            人類が自らの可能性を信じ、
             <br />
             自らの未来を歩めるよう支援する。
           </h1>
