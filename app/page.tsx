@@ -48,6 +48,12 @@ export default function Home() {
           className={`max-w-6xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
         >
+          <h2 className="text-sm md:text-base font-semibold tracking-widest text-zinc-400 mb-4 uppercase">
+            Purpose
+          </h2>
+          <p className="text-xs md:text-sm text-zinc-500 mb-12">
+            組織が存在する根本的理由。
+          </p>
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-white">
             人類が自らの可能性を信じ、
             <br />
@@ -59,6 +65,12 @@ export default function Home() {
       {/* Core Values Section */}
       <section className="min-h-screen flex items-center justify-center px-6 md:px-12 py-24 relative z-10">
         <div className="max-w-3xl mx-auto w-full">
+          <h2 className="text-sm md:text-base font-semibold tracking-widest text-zinc-400 mb-4 uppercase text-center">
+            Core Values
+          </h2>
+          <p className="text-xs md:text-sm text-zinc-500 mb-12 text-center">
+            人生の指針となる原則。<br />人生を導く哲学。
+          </p>
           <div className="space-y-8 md:space-y-12">
             {/* Value 1: わくわくする */}
             <div className="value-card value-card-orange group">
@@ -102,6 +114,23 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Mission (BHAG) Section */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-12 py-24 relative z-10">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-sm md:text-base font-semibold tracking-widest text-zinc-400 mb-4 uppercase">
+            Mission (BHAG)
+          </h2>
+          <p className="text-xs md:text-sm text-zinc-500 mb-12">
+            人生を賭けた大胆な目標
+          </p>
+          <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-white">
+            世界TOPのプレイヤーと肩を並べ、
+            <br />
+            未来を創る最先端に立つ。
+          </h1>
         </div>
       </section>
     </div>
