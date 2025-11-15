@@ -52,7 +52,7 @@ export default function Home() {
             Purpose
           </h2>
           <p className="text-xs md:text-sm text-zinc-500 mb-12">
-            組織が存在する根本的理由。
+            自分が存在する根本的理由。
           </p>
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-white">
             人類が自らの可能性を信じ、
